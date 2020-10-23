@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import Directory from './DirectoryComponent';
-//import CampsiteInfo from './CampsiteInfoComponent';
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 import Home from './HomeComponent';
+import Contact from './ContactComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { CAMPSITES } from '../shared/campsites';
 import { COMMENTS } from '../shared/comments';
 import { PARTNERS } from '../shared/partners';
 import { PROMOTIONS } from '../shared/promotions';
-import Contact from './ContactComponent';
+
 
 class Main extends Component {
     constructor(props) {
